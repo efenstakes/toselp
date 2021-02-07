@@ -1,0 +1,27 @@
+$standard_animation_duration: 240ms;
+// move up
+@keyframes move_up {
+    from {
+        transform: translateY(180px);
+    }
+}
+
+@mixin moveup_mx($delay: 0ms, $duration: $standard_animation_duration) {
+    animation-name: move_up;
+    animation-duration: $duration;
+    animation-delay: $delay;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: backwards;
+}
+
+// generate animations
+@for $index from 1 to 900 {
+    .moveup_#{$index} {
+        // animation-name: move_up;
+        // animation-duration: 300ms;
+        // animation-delay: calc(#{index}ms);
+        // animation-timing-function: ease-in-out;
+        // animation-fill-mode: backwards;
+        @include moveup_mx($delay: calc(#{$index}*20ms));
+    }
+}

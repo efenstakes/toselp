@@ -1,0 +1,21 @@
+.app_bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+    // background-color: red;
+    width: 100vw;
+    // color: black;
+}
+
+.app_bar__links {
+    display: flex;
+    flex-direction: row;
+    // justify-content: space-evenly;
+    justify-self: flex-end;
+}
+
+.app_bar__links__link {
+    margin-left: 32px;
+}

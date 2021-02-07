@@ -1,0 +1,9 @@
+@import "../../styles/animator.scss";
+.intro {
+    min-height: 80vh;
+    display: grid;
+    place-items: center;
+    // animation-name: move_up;
+    // animation-duration: 300ms;
+    // animation-fill-mode: backwards;
+}
