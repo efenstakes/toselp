@@ -15,7 +15,7 @@ const WhyWeExistComponent = () => {
         <>
         <Grid container spacing={2}>
 
-            <Grid item xs={12} sm={12} md={6} lg={3} xl={3}>
+            <Grid item xs={12} sm={6} md={4} lg={3} xl={3}>
                 <WhyWeExistCardComponent 
                   title="Big Data"
                   description="Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
@@ -25,7 +25,7 @@ const WhyWeExistComponent = () => {
                 />
             </Grid>
             
-            <Grid item xs={12} sm={12} md={6} lg={3} xl={3}>
+            <Grid item xs={12} sm={6} md={4} lg={3} xl={3}>
                 <WhyWeExistCardComponent 
                   title="Deep Learning"
                   description="Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
@@ -35,7 +35,7 @@ const WhyWeExistComponent = () => {
                 />
             </Grid>
             
-            <Grid item xs={12} sm={12} md={6} lg={3} xl={3}>
+            <Grid item xs={12} sm={6} md={4} lg={3} xl={3}>
                 <WhyWeExistCardComponent 
                   title="Data Science"
                   description="Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
@@ -45,7 +45,7 @@ const WhyWeExistComponent = () => {
                 />
             </Grid>
             
-            <Grid item xs={12} sm={12} md={6} lg={3} xl={3}>
+            <Grid item xs={12} sm={6} md={4} lg={3} xl={3}>
                 <WhyWeExistCardComponent 
                   title="AI"
                   description="Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging

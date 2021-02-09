@@ -1,0 +1,57 @@
+@import '../../styles/theme';
+
+
+.footer {
+    background-color: $black;
+    color: $white;
+    padding: 32px 0px 8px 0px;
+
+    @media screen and ( max-width: '600px' ) {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+.footer__site_links {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__link {
+    color: $white;
+    text-decoration: none;
+    margin-bottom: 6px;
+}
+
+.footer__contact__text {
+    margin-bottom: 6px;
+}
+
+.footer__copyright__text {
+    text-align: center;
+    font-weight: 600;
+    margin-top: 24px;
+}
+
+.footer__socials__container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    // background-color: green;
+    color: $primary_color;
+
+    // padding: 0px 16px;
+    min-width: 240px;
+    max-width: 320px;
+}
+
+.footer__socials__link {
+    display: grid;
+    place-items: center;
+    padding: 10px;
+    margin-right: 40px;
+
+    background-color: white;
+    border-radius: 8px;
+}

@@ -1,0 +1,25 @@
+@import '../../styles/theme';
+
+.work_with_us {
+    padding: 56px 16px;
+    min-width: 600px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-color: $footer_color;
+    border-radius: 20px;
+}
+
+.work_with_us__title {
+    text-align: center;
+    margin-bottom: 24px;
+    color: $primary_color;
+}
+
+.work_with_us__text {
+    margin-bottom: 16px;
+    line-height: 1.3em;
+    text-align: center;
+}

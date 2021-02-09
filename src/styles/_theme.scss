@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,700&family=Merriweather:ital,wght@0,400;0,700;0,900;1,700;1,900&family=Rancho&display=swap');
+
+
+// set app colors FAD02C
+$primary_color: #1a8fe3;
+$primary_color_alt: lighten($primary_color, 20);
+$secondary_color: #231F20;
+$tertiary_color: #2B2B2B;
+
+$white: #fff;
+$white_pewter: #E9EAEC;
+$black: #2B2B2B;
+$gray: #F1F1F1;
+
+$secondary_text_color: lighten($black, 12);
+$success_background_color: lighten($primary_color, 8); // or #f5d65c
+
+$badge_color: $primary_color;
+$footer_color: lighten(#1a8fe3, 28);
+
+
+$search_input_background_color: #E5E5E5;
+$search_input_mobile_background_color: lighten(#E5E5E5, 20);
+
+
+
+$instagram_color: rgb(255, 123, 0);
+$twitter_color: skyblue;
+$facebook_color: rgb(48, 48, 161);
+$email_color: $primary_color;
+
+// set fonts
+$logo_font: 'Rancho';
+$titles_font: 'Merriweather';
+$text_font: 'Lato';
+$common_font: 'Lato';
+
+
+// max width of mobile devices
+$mobileMaxWidth: '600px';
+$tabletMaxWidth: '960px';
+
+// min widths
+$mobileMinWidth: '0px';
+$tabletMinWidth: '600px';
+$desktopMinWidth: '960px';
+$largeDesktopMinWidth: '1280px';
+$ultraWideDesktopMinWidth: '1920px';

@@ -21,13 +21,13 @@ const WhyWeExistCardComponent = ({ title, description, imageUrl, index }) => {
     return (
         <div className={animator}
           style={{
-              width: '399px',
-              height: '355px',
+              // width: '399px',
+              // height: '355px',
             //   backgroundColor: 'violet',
-              marginBottom: '30px'
+              // marginBottom: '30px'
           }}
         >
-            <Card className={classes.root}>
+            <Card >
       <CardActionArea>
         <CardMedia
           component="img"
